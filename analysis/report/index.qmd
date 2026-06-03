@@ -10,7 +10,7 @@ description: >
   debugging missing packages, and I realised Docker
   could have prevented every single error -- whether
   the output was a static PDF or a live Shiny app.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -28,7 +28,7 @@ cluster-order: 4
 
 *2026-05-17 16:55 PDT*
 
-![  ](media/images/hero.jpg){.img-fluid width=80% fig-align="center"}
+![  ](media/images/hero.png){.img-fluid width=80% fig-align="center"}
 
 *Just as shipping containers standardised global
 freight, Docker containers standardise software
