@@ -12,7 +12,7 @@ description: >
   the output was a static PDF or a live Shiny app.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
@@ -498,7 +498,7 @@ to know it exists.
 ![A pair of hands assembling components into a
 container, representing the process of packaging
 an analysis for reproducibility.
-](media/images/ambiance2.jpg){.img-fluid
+](media/images/ambiance2.png){.img-fluid
 fig-alt="Hands carefully placing items into a
 container, symbolising the methodical process of
 packaging an R analysis into a Docker image."}
@@ -797,7 +797,7 @@ docker run -d --rm \
 ![A quiet desk with a closed laptop and a cup of
 coffee, representing the conclusion of a completed
 workflow.
-](media/images/ambiance3.jpg){.img-fluid
+](media/images/ambiance3.png){.img-fluid
 fig-alt="A closed laptop on a tidy desk with a
 cup of coffee, symbolising the satisfaction of a
 reproducible workflow completed."}
