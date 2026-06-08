@@ -1,7 +1,7 @@
 ---
 title: "Sharing R Code via Docker: R Markdown Reports
   and Shiny Applications"
-author: "Ronald 'Ryy' G. Thomas"
+author: "Ronald G. Thomas"
 date: "2026-05-17"
 categories: [r, docker, rmarkdown, shiny, reproducibility]
 description: >
