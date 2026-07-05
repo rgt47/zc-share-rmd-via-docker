@@ -12,7 +12,7 @@ description: >
   the output was a static PDF or a live Shiny app.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   warning: false
