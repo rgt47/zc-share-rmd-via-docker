@@ -1,23 +1,17 @@
 ---
-title: "Sharing R Code via Docker: R Markdown Reports
-  and Shiny Applications"
+title: "Sharing R Code via Docker: R Markdown Reports and Shiny Applications"
 author: "Ronald G. Thomas"
 date: "2026-05-17"
 categories: [r, docker, rmarkdown, shiny, reproducibility]
-description: >
-  I did not really know how fragile sharing R code
-  could be until my colleague spent an afternoon
-  debugging missing packages, and I realised Docker
-  could have prevented every single error -- whether
-  the output was a static PDF or a live Shiny app.
+description: "I did not really know how fragile sharing R code could be until my colleague spent an afternoon debugging missing packages, and I realised Docker could have prevented every single error -- whether the output was a static PDF or a live Shiny app."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: true
 execute:
   echo: true
+  eval: false
   warning: false
   message: false
-  eval: false
 cluster: zzcollab-compendia
 cluster-order: 4
 ---
