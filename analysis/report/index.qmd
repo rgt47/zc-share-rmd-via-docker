@@ -18,10 +18,6 @@ execute:
   warning: false
   message: false
   eval: false
-format:
-  html:
-    code-fold: false
-    code-tools: false
 cluster: zzcollab-compendia
 cluster-order: 4
 ---
