@@ -58,7 +58,7 @@ parallel case studies:
 
 More formally, we document the Container layer of
 the Workflow Construct described in
-[post 52](/posts/52-workflow-construct/). The
+[A Workflow Construct for the Modern Data Scientist](../wf-construct-overview-anchor/). The
 Container layer is replaceable across runtimes
 (Docker on the laptop, Apptainer on HPC, Podman as
 a daemonless alternative); its core machinery is
@@ -1151,7 +1151,7 @@ I would enjoy hearing from you if:
 ---
 
 *Rendered on 2026-05-17 at 17:08 PDT.*<br>
-*Source: ~/prj/qblog/posts/32-sharermdcodeviadocker/sharermdcodeviadocker/analysis/report/index.qmd*
+*Source: ~/prj/rgtlab/posts/zc-share-rmd-via-docker/index.qmd*
 
 ## Related posts in this cluster
 
