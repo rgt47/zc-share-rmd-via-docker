@@ -1,5 +1,23 @@
 # Image attributions
 
+## Status (2026-08-25)
+
+`hero.png` and `ambiance2.jpg` are genuine Gemini generations as of
+2026-08-25 (generated via the `gemini-image-generator` tool). `hero.png`
+replaces an unrelated stock photo of Albert Einstein in front of a
+chalkboard; `ambiance2.png` replaces a generic living-room stock photo.
+`ambiance3.jpg` (the UCSD Geisel Library photo) was already genuine.
+
+- `hero.png`: a sealed glass terrarium with moss, a miniature fern,
+  and a pebble base on a wooden desk. Metaphor: a Docker container as
+  a self-contained, portable environment that runs the same anywhere.
+- `ambiance2.jpg`: a stack of identical sealed containers, each with a
+  handwritten label. Metaphor: identical, portable, ready-to-share
+  packages.
+
+Both processed via `magick -resize 1600x -strip -quality 85` to
+1600x873.
+
 ## Placeholder coffee images (temporary ambiance slots)
 
 These images are shared placeholders used across all posts until replaced

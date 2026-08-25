@@ -18,7 +18,7 @@ cluster-order: 4
 
 *2026-05-17 16:55 PDT*
 
-![  ](media/images/hero.png){.img-fluid width=80% fig-align="center"}
+![A sealed glass terrarium containing a small self-contained ecosystem: a Docker container as a self-contained, portable environment that runs the same anywhere.](media/images/hero.png){.img-fluid width=80% fig-align="center"}
 
 *Just as shipping containers standardised global
 freight, Docker containers standardise software
@@ -485,13 +485,13 @@ In the Docker image, this file is already in place
 at `/home/joe/shr/preamble.tex`. Joe never needs
 to know it exists.
 
-![A pair of hands assembling components into a
-container, representing the process of packaging
-an analysis for reproducibility.
-](media/images/ambiance2.png){.img-fluid
-fig-alt="Hands carefully placing items into a
-container, symbolising the methodical process of
-packaging an R analysis into a Docker image."}
+![A stack of identical sealed containers, each with a
+handwritten label, ready to be handed to a different
+person.
+](media/images/ambiance2.jpg){.img-fluid
+fig-alt="A stack of identical labeled sealed containers,
+symbolizing identical, portable, ready-to-share
+packages."}
 
 *Packaging everything together so no piece is left
 behind.*
