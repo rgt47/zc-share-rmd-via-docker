@@ -3,7 +3,7 @@ title: "Sharing R Code via Docker: R Markdown Reports and Shiny Applications"
 author: "Ronald G. Thomas"
 date: "2026-05-17"
 categories: [r, docker, rmarkdown, shiny, reproducibility]
-description: "I did not really know how fragile sharing R code could be until my colleague spent an afternoon debugging missing packages, and I realised Docker could have prevented every single error -- whether the output was a static PDF or a live Shiny app."
+description: "I did not really know how fragile sharing R code could be until my colleague spent an afternoon debugging missing packages, and I realized Docker could have prevented every single error -- whether the output was a static PDF or a live Shiny app."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: true
@@ -20,8 +20,8 @@ cluster-order: 4
 
 ![A sealed glass terrarium containing a small self-contained ecosystem: a Docker container as a self-contained, portable environment that runs the same anywhere.](media/images/hero.png){.img-fluid width=80% fig-align="center"}
 
-*Just as shipping containers standardised global
-freight, Docker containers standardise software
+*Just as shipping containers standardized global
+freight, Docker containers standardize software
 delivery: for static analyses and interactive
 applications alike.*
 
@@ -90,7 +90,7 @@ serves.
 
 1. Explain the core Docker concepts (image, container,
    Dockerfile, layer caching, volume mounts, port
-   mapping) that apply to all R containerisation
+   mapping) that apply to all R containerization
    workflows.
 2. Demonstrate the failure modes of naive sharing for
    both R Markdown and Shiny by walking through the
@@ -789,7 +789,7 @@ coffee, representing the conclusion of a completed
 workflow.
 ](media/images/ambiance3.png){.img-fluid
 fig-alt="A closed laptop on a tidy desk with a
-cup of coffee, symbolising the satisfaction of a
+cup of coffee, symbolizing the satisfaction of a
 reproducible workflow completed."}
 
 *When the analysis runs on the first try, on any
@@ -886,7 +886,7 @@ system package manager. Uninstalling Docker does
 not affect files outside the Docker storage
 directory (typically `/var/lib/docker`).
 
-# Lessons Learnt
+# Lessons Learned
 
 ## Conceptual Understanding
 
@@ -944,7 +944,7 @@ directory (typically `/var/lib/docker`).
 
 - Docker Desktop is required on the recipient's
   machine, which may not be permitted in all
-  organisational environments.
+  organizational environments.
 - Base images are large (1.5 to 2 GB before adding
   packages), making image sharing impractical on
   low-bandwidth connections.
@@ -1074,7 +1074,7 @@ Desktop 4.x, R 4.4, and Shiny 1.8.
 |------|---------|
 | `peng.Rmd` | R Markdown analysis file |
 | `Dockerfile` | Environment definition |
-| `preamble.tex` | LaTeX header customisation |
+| `preamble.tex` | LaTeX header customization |
 | `sudoku.png` | Logo image for PDF header |
 
 **Case B files:**
