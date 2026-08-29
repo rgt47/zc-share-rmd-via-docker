@@ -6,7 +6,7 @@ categories: [r, docker, rmarkdown, shiny, reproducibility]
 description: "I did not really know how fragile sharing R code could be until my colleague spent an afternoon debugging missing packages, and I realized Docker could have prevented every single error -- whether the output was a static PDF or a live Shiny app."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   eval: false
