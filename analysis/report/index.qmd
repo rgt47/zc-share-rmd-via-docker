@@ -28,11 +28,10 @@ applications alike.*
 # Introduction
 
 I did not really know how fragile sharing R code
-could be until my colleague (let us call him Joe)
+could be until I sent a single `.Rmd` file to my
+colleague (let us call him Joe) by email. Joe then
 spent an entire afternoon debugging missing
-packages, incompatible R versions, and absent files,
-all because I sent him a single `.Rmd` file by
-email. The code ran perfectly on my machine. Joe's
+packages, incompatible R versions, and absent files. The code ran perfectly on my machine. Joe's
 Linux Mint workstation disagreed on every count.
 
 The Shiny case is worse. A static R Markdown report
