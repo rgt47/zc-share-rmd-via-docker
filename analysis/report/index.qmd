@@ -3,7 +3,7 @@ title: "Sharing R Code via Docker: R Markdown Reports and Shiny Applications"
 author: "Ronald G. Thomas"
 date: "2026-05-17"
 categories: [r, docker, rmarkdown, shiny, reproducibility]
-description: "I did not really know how fragile sharing R code could be until my colleague spent an afternoon debugging missing packages, and I realized Docker could have prevented every single error -- whether the output was a static PDF or a live Shiny app."
+description: "Sharing R code is more fragile than it looks: my colleague spent an afternoon debugging missing packages, and Docker would have prevented every single error, whether the output was a static PDF or a live Shiny app."
 image: "media/images/hero.png"
 document-type: "blog"
 draft: false
@@ -27,9 +27,9 @@ applications alike.*
 
 # Introduction
 
-I did not really know how fragile sharing R code
-could be until I sent a single `.Rmd` file to my
-colleague (let us call him Joe) by email. Joe then
+Sharing R code is more fragile than it looks. I sent
+a single `.Rmd` file to my colleague (let us call him
+Joe) by email. Joe then
 spent an entire afternoon debugging missing
 packages, incompatible R versions, and absent files. The code ran perfectly on my machine. Joe's
 Linux Mint workstation disagreed on every count.
