@@ -111,6 +111,11 @@ width=30% fig-align="center"}
 *The analysis begins on one machine, but it needs
 to run on many.*
 
+![A scale-model shipping container beside a laptop and coffee.](media/images/ambiance1.jpg){.img-fluid
+fig-alt="A stack of identical labeled sealed containers,
+symbolizing identical, portable, ready-to-share
+packages."}
+
 # Prerequisites and Setup
 
 Before proceeding, the following are required:
@@ -492,9 +497,6 @@ fig-alt="A stack of identical labeled sealed containers,
 symbolizing identical, portable, ready-to-share
 packages."}
 
-*Packaging everything together so no piece is left
-behind.*
-
 # Case B: Dockerizing a Shiny Application
 
 The Shiny case introduces concerns absent from the
@@ -786,13 +788,10 @@ docker run -d --rm \
 ![A quiet desk with a closed laptop and a cup of
 coffee, representing the conclusion of a completed
 workflow.
-](media/images/ambiance3.png){.img-fluid
+](media/images/ambiance3.jpg){.img-fluid
 fig-alt="A closed laptop on a tidy desk with a
 cup of coffee, symbolizing the satisfaction of a
 reproducible workflow completed."}
-
-*When the analysis runs on the first try, on any
-machine, the work is done.*
 
 # Things to Watch Out For
 
